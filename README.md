@@ -4,6 +4,6 @@ Just my usual file structure for the front part of Laravel projects
 
 ## Livereload
 
-In the `footer.blade.php` is a reference to LiveReload.
+In the `footer.blade.php`, there is a reference to LiveReload.
 
-To use it, just follow those steps: https://github.com/JeffreyWay/laravel-mix/blob/master/docs/livereload.md
+To use it, just follow those simple steps: https://github.com/JeffreyWay/laravel-mix/blob/master/docs/livereload.md
