@@ -1,0 +1,23 @@
+/**
+ * Colors used across the website
+ * ------------------------------
+ * [1]
+ * First let's name them as they should, using appropriate tool :
+ * http://www.color-blindness.com/color-name-hue/
+ * If two colors get the same name, use the built-in Sass functions :
+ * darken($color-name, xx%)
+ * lighten($color-name, xx%)
+ *
+ * [2]
+ * Then, assign colors to their exact role, to allow easy updates
+ * Do not hesitate to abuse of assignments, this is really healthy!
+ */
+
+
+/* ====== [1] NAMES ====== */
+$lochmara: #336699;
+$venetian-red: #C90E17;
+
+/* ====== [2] ASSIGNMENTS ====== */
+$header-links: $lochmara;
+$header-background: $venetian-red;

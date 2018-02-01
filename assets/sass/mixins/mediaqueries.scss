@@ -1,0 +1,46 @@
+/**
+ * Mediaqueries used in a project
+ * ------------------------------
+ */
+
+/* --- medium screens and above --- */
+@mixin from-medium {
+    @media only screen and (min-width: $width-bp-small) {
+        @content;
+    }
+}
+
+/* --- medium-low screens and above --- */
+@mixin from-medium-low {
+    @media only screen and (min-width: #{$width-bp-medium-low - 0.01em}) {
+        @content;
+    }
+}
+
+/* --- only medium-low screens --- */
+@mixin only-medium-low {
+    @media only screen and (min-width: $width-bp-small) and (max-width: #{$width-bp-medium-low - 0.01em}) {
+        @content;
+    }
+}
+
+/* --- from medium-high screens and above --- */
+@mixin from-medium-high {
+    @media only screen and (min-width: #{$width-bp-medium-high - 0.01em}) {
+        @content;
+    }
+}
+
+/* --- only medium-high screens --- */
+@mixin only-medium-high {
+    @media only screen and (min-width: $width-bp-medium-low) and (max-width: #{$width-bp-medium-high - 0.01em}) {
+        @content;
+    }
+}
+
+/* --- large screens --- */
+@mixin from-large {
+    @media only screen and (min-width: $width-bp-medium-high) {
+        @content;
+    }
+}

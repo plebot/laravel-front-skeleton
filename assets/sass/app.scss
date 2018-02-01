@@ -1,7 +1,9 @@
 @import './core/settings';
 @import './core/colors';
 @import './base';
+@import './mixins/tools';
 @import './mixins/mediaqueries';
+
 @import './includes/header';
 @import './styles';
 @import './includes/footer';

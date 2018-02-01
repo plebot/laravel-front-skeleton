@@ -1,0 +1,20 @@
+/**
+ * Settings
+ * --------
+ * Allows fine-tuning of the website
+ * [1] BREAKPOINTS: mediaqueries will use those settings
+ * [2] DIMENSIONS: dimensions on any element can be changed easily
+ * [3] DURATIONS: animations and transitions can be modified easily
+ */
+
+/* ====== [1] BREAKPOINTS ====== */
+/* --- "em" for mediaqueries to stick to the 16px browsers default font-size  --- */
+$width-bp-small: 37.5em;            // = 600px
+$width-bp-medium-low: 50em;         // = 800px
+$width-bp-medium-high: 68.75em;     // = 1100px
+$width-bp-large: 80em;              // = 1280px
+
+/* ====== [2] DIMENSIONS ====== */
+
+
+/* ====== [3] DURATIONS ====== */
